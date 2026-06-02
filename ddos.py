@@ -23,8 +23,8 @@ def load_config():
         return {"TOKEN": "", "ADMIN_IDS": []}
 
 config = load_config()
-TOKEN = config.get("TOKEN") #
-ADMIN_IDS = config.get("ADMIN_IDS") #
+TOKEN = config.get("8401059435:AAFetAx3zRqvBVuKexh2Ork6J6I3saIC9qs") #
+ADMIN_IDS = config.get("8318925500") #
 
 # --- [ 2. BOT INITIALIZATION ] ---
 # Token load hone ke baad bot ko start karo
